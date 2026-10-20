@@ -1,0 +1,481 @@
+# Copyright (C) 2026 PCIO
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: PCIO VIS With Unitii 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-13 15:41+0000\n"
+"X-Domain: pcio-vis-with-unitii\n"
+
+#: pcio-vis-with-unitii.php
+msgid "https://www.pcio.dk"
+msgstr ""
+
+#: pcio-vis-with-unitii.php
+msgid "https://www.pcio.dk/"
+msgstr ""
+
+#: pcio-vis-with-unitii.php
+msgid "PCIO"
+msgstr ""
+
+#: pcio-vis-with-unitii.php
+msgid "Synchronises volunteers, events and shifts from the Unitii volunteer platform into PCIO VIS Member Event. Volunteers become members of a Vis workgroup with the vis_volunteer capability, and Unitii shifts are shown in the crew list of the matching Vis event."
+msgstr ""
+
+#: pcio-vis-with-unitii.php
+msgid "PCIO VIS With Unitii"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:27 includes/class-pcio-vis-with-unitii-admin.php:28
+msgid "Unitii"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:40
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:46
+msgid "Vis — Unitii Settings"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:49
+msgid "The Unitii sync cron job imports volunteers, events and shifts from Unitii: volunteers become members of the selected workgroup, and shifts are added to the crew list of the matching Vis event."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:80
+msgid "Email mapping removed."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:109
+msgid "Unitii settings were not saved — please fix the following:"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:123
+msgid "Unitii settings saved."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:136
+msgid "The API URL is not a valid http(s) URL."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:139
+msgid "The Unitii username is required."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:142
+msgid "The Unitii password is required."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:145
+msgid "Select a Vis event type."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:148
+msgid "Select a Vis event crew role."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:151
+msgid "Select a Vis workgroup."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:156
+msgid "The template event ID does not match an existing Vis event."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:158
+msgid "The template event must have the selected Vis event type."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:173
+msgid "Enter two valid email addresses."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:176
+msgid "The two email addresses are the same; no mapping is needed."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:180
+msgid "Email mapping saved."
+msgstr ""
+
+#. translators: %s: email address
+#: includes/class-pcio-vis-with-unitii-admin.php:186
+#, php-format
+msgid "No Vis member has the email %s yet."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:204
+msgid "Connection"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:207
+msgid "API URL"
+msgstr ""
+
+#. translators: %s: default API URL
+#: includes/class-pcio-vis-with-unitii-admin.php:215
+#, php-format
+msgid "The Unitii GraphQL endpoint. Default: %s"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:223
+msgid "Username"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:227
+msgid "The email address used to log in to Unitii."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:231
+msgid "Password"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:237
+msgid "A password is saved. Leave empty to keep it."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:239
+msgid "No password saved yet."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:247
+msgid "Vis mapping"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:250 includes/class-pcio-vis-with-unitii-settings.php:126
+msgid "Vis event type"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:253
+msgid "Unitii shifts are added to the Vis event of this type on the same day."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:257 includes/class-pcio-vis-with-unitii-settings.php:129
+msgid "Vis event crew role"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:260
+msgid "The crew role given to the shifts imported from Unitii."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:264 includes/class-pcio-vis-with-unitii-settings.php:132
+msgid "Vis workgroup"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:267
+msgid "All Unitii volunteers are mapped 1:1 to this workgroup and given the vis_volunteer capability."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:271
+msgid "Template event ID"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:275
+msgid "When no Vis event of the selected type exists on a Unitii event day, a new event is created as a copy of this event (title, description, resume, homepage setting, event type and times)."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:279
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:294
+msgid "— Select —"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:314
+msgid "Title"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:315
+msgid "Event type"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:316
+msgid "Start"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:317
+msgid "End"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:318
+msgid "Get-in time"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:319
+msgid "Door opening"
+msgstr ""
+
+#. translators: %d: event id
+#: includes/class-pcio-vis-with-unitii-admin.php:327
+#, php-format
+msgid "Template event %d"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:354
+msgid "Email mapping"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:356
+msgid "Unitii volunteers are matched to Vis members by email address. Add an exception here when a person uses a different email address in Unitii and in Vis."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:363 includes/class-pcio-vis-with-unitii-admin.php:402 includes/class-pcio-vis-with-unitii-admin.php:404
+msgid "Unitii email"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:364 includes/class-pcio-vis-with-unitii-admin.php:407 includes/class-pcio-vis-with-unitii-admin.php:409
+msgid "Vis member email"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:365
+msgid "Vis member"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:371
+msgid "No exceptions."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:386
+msgid "Not found"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:393
+msgid "Remove"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:414
+msgid "Add"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:432
+msgid "Sync status"
+msgstr ""
+
+#. translators: %s: comma-separated list of missing settings
+#: includes/class-pcio-vis-with-unitii-admin.php:438
+#, php-format
+msgid "Not configured yet. Missing: %s."
+msgstr ""
+
+#. translators: 1: volunteers, 2: events, 3: shifts, 4: volunteer shifts
+#: includes/class-pcio-vis-with-unitii-admin.php:448
+#, php-format
+msgid "Staged from Unitii: %1$d volunteers, %2$d events, %3$d shifts, %4$d volunteer shifts."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:457
+msgid "The sync runs as the \"Unitii sync\" job. Enable it, set its frequency or run it now on the Vis Sync page."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-admin.php:458
+msgid "Open Vis Sync"
+msgstr ""
+
+#. translators: %s: date and time of the last run
+#: includes/class-pcio-vis-with-unitii-admin.php:465
+#, php-format
+msgid "Last run: %s"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-client.php:70
+msgid "Unitii login failed: no access token in the response. Check the username and password."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-client.php:107
+msgid "Invalid data structure from the Unitii API."
+msgstr ""
+
+#. translators: 1: GraphQL operation name, 2: HTTP status code, 3: start of the response body
+#: includes/class-pcio-vis-with-unitii-client.php:163
+#, php-format
+msgid "Unitii %1$s returned HTTP %2$d: %3$s"
+msgstr ""
+
+#. translators: %s: GraphQL operation name
+#: includes/class-pcio-vis-with-unitii-client.php:177
+#, php-format
+msgid "Could not parse the JSON response from Unitii %s."
+msgstr ""
+
+#. translators: 1: GraphQL operation name, 2: error messages
+#: includes/class-pcio-vis-with-unitii-client.php:192
+#, php-format
+msgid "Unitii %1$s error: %2$s"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-settings.php:123
+msgid "Unitii username and password"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii-settings.php:135
+msgid "Template event"
+msgstr ""
+
+#. translators: 1: period start date, 2: period end date
+#: includes/class-pcio-vis-with-unitii.php:107
+#, php-format
+msgid "Period %1$s – %2$s"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:128 pcio-vis-with-unitii.php:60 pcio-vis-with-unitii.php:79
+msgid "Unitii sync"
+msgstr ""
+
+#. translators: %s: comma-separated list of missing settings
+#: includes/class-pcio-vis-with-unitii.php:163
+#, php-format
+msgid "Unitii sync is not configured. Missing: %s."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:168
+msgid "The configured Vis event type no longer exists."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:171
+msgid "The configured Vis event crew role no longer exists."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:174
+msgid "The configured Vis workgroup no longer exists."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:178
+msgid "The configured template event no longer exists."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:181
+msgid "The template event does not have the configured Vis event type."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:204
+msgid "Invalid volunteer data structure, item skipped."
+msgstr ""
+
+#. translators: %s: Unitii volunteer id
+#: includes/class-pcio-vis-with-unitii.php:231
+#, php-format
+msgid "No shifts array for Unitii volunteer %s."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:252
+msgid "Shift without id skipped."
+msgstr ""
+
+#. translators: %s: Unitii shift id
+#: includes/class-pcio-vis-with-unitii.php:260
+#, php-format
+msgid "Unitii shift %s has no valid event, skipped."
+msgstr ""
+
+#. translators: %s: Unitii shift id
+#: includes/class-pcio-vis-with-unitii.php:286
+#, php-format
+msgid "Unitii shift %s has a missing or invalid start/end time."
+msgstr ""
+
+#. translators: 1: volunteer name, 2: email address
+#: includes/class-pcio-vis-with-unitii.php:351
+#, php-format
+msgid "Unitii volunteer %1$s has an invalid email \"%2$s\"."
+msgstr ""
+
+#. translators: %s: email address
+#: includes/class-pcio-vis-with-unitii.php:389
+#, php-format
+msgid "Could not create Vis member %s."
+msgstr ""
+
+#. translators: 1: member name, 2: email address
+#: includes/class-pcio-vis-with-unitii.php:399
+#, php-format
+msgid "Created Vis volunteer %1$s <%2$s>."
+msgstr ""
+
+#. translators: %s: email address
+#: includes/class-pcio-vis-with-unitii.php:453
+#, php-format
+msgid "Could not update Vis member %s."
+msgstr ""
+
+#. translators: %s: email address
+#: includes/class-pcio-vis-with-unitii.php:484
+#, php-format
+msgid "No WordPress account for %s; vis_volunteer not granted."
+msgstr ""
+
+#. translators: %s: email address
+#: includes/class-pcio-vis-with-unitii.php:535
+#, php-format
+msgid "No Vis volunteer with email %s."
+msgstr ""
+
+#. translators: %s: Unitii shift id
+#: includes/class-pcio-vis-with-unitii.php:548
+#, php-format
+msgid "Unitii shift %s does not start and end on the same day."
+msgstr ""
+
+#. translators: %d: Vis event id
+#: includes/class-pcio-vis-with-unitii.php:594
+#, php-format
+msgid "Could not create crew shift on Vis event %d."
+msgstr ""
+
+#. translators: %s: date
+#: includes/class-pcio-vis-with-unitii.php:725
+#, php-format
+msgid "Could not create a Vis event from the template on %s."
+msgstr ""
+
+#. translators: 1: event id, 2: event title, 3: start date and time
+#: includes/class-pcio-vis-with-unitii.php:735
+#, php-format
+msgid "Created Vis event %1$d \"%2$s\" at %3$s from the template."
+msgstr ""
+
+#. translators: 1: member name, 2: email address
+#: includes/class-pcio-vis-with-unitii.php:776
+#, php-format
+msgid "Removed %1$s <%2$s> from the workgroup."
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:827
+msgid "ERROR:"
+msgstr ""
+
+#. translators: 1: API items, 2: new volunteers, 3: new events, 4: new shifts, 5: new volunteer-shifts, 6: deleted volunteers
+#: includes/class-pcio-vis-with-unitii.php:844
+#, php-format
+msgid "Unitii: %1$d items, %2$d new volunteers, %3$d new events, %4$d new shifts, %5$d new volunteer-shifts, %6$d volunteers deleted."
+msgstr ""
+
+#. translators: 1: created, 2: updated, 3: skipped (no work), 4: new WP accounts, 5: capabilities granted, 6: added to workgroup, 7: removed from workgroup
+#: includes/class-pcio-vis-with-unitii.php:854
+#, php-format
+msgid "Members: %1$d created, %2$d updated, %3$d skipped (no work done), %4$d WP accounts, %5$d vis_volunteer granted, workgroup +%6$d / -%7$d."
+msgstr ""
+
+#. translators: 1: analysed shifts, 2: events found, 3: events created, 4: crew created, 5: crew updated, 6: crew unchanged, 7: crew deleted
+#: includes/class-pcio-vis-with-unitii.php:865
+#, php-format
+msgid "Shifts: %1$d analysed, events %2$d found / %3$d created, crew %4$d created / %5$d updated / %6$d OK / %7$d deleted."
+msgstr ""
+
+#. translators: %d: number of errors
+#: includes/class-pcio-vis-with-unitii.php:876
+#, php-format
+msgid "Errors: %d"
+msgstr ""
+
+#: includes/class-pcio-vis-with-unitii.php:893
+msgid "… (see the Unitii settings page for the full log)"
+msgstr ""
+
+#: pcio-vis-with-unitii.php:61
+msgid "Imports volunteers, events and shifts from Unitii: updates the Unitii workgroup, grants vis_volunteer, creates missing Vis events from the template and syncs the Unitii shifts into the event crew lists."
+msgstr ""
+
