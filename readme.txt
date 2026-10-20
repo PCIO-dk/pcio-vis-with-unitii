@@ -61,6 +61,11 @@ No. The sync only updates and removes the crew rows it created (or adopted) for 
 = What is copied from the template event? =
 Title, description, resume, the "publish on homepage" flag and the event type. The start, end, get-in and door opening times are moved to the new day with the same time of day, so an end after midnight or a get-in the evening before stays relative to the start. Requires PCIO VIS Member Event 1.6.0 or later for get-in and door opening times.
 
+== Screenshots ==
+
+1. WP Admin Vis menu page to configure the import of Unitii events, volunteers and shifts
+2. The Vis cron sync jobs has gotten a new Unitii importer job
+
 == Changelog ==
 
 = 1.0.0 =
