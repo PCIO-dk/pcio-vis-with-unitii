@@ -3,7 +3,7 @@
  * Plugin Name:       PCIO VIS With Unitii
  * Plugin URI:        https://www.pcio.dk/
  * Description:       Synchronises volunteers, events and shifts from the Unitii volunteer platform into PCIO VIS Member Event. Volunteers become members of a Vis workgroup with the vis_volunteer capability, and Unitii shifts are shown in the crew list of the matching Vis event.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            PCIO
  * Author URI:        https://www.pcio.dk
  * Requires at least: 6.2

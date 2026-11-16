@@ -26,7 +26,7 @@ class PCIO_VIS_With_Unitii_Admin {
 			'pcio-me-settings',
 			__( 'Unitii', 'pcio-vis-with-unitii' ),
 			__( 'Unitii', 'pcio-vis-with-unitii' ),
-			'manage_options',
+			'vis_manage_settings',
 			self::PAGE_SLUG,
 			[ __CLASS__, 'render_page' ]
 		);
@@ -36,7 +36,7 @@ class PCIO_VIS_With_Unitii_Admin {
 	 * Render the settings page and handle its form posts.
 	 */
 	public static function render_page(): void {
-		if ( ! current_user_can( 'manage_options' ) ) {
+		if ( ! current_user_can( 'vis_manage_settings' ) ) {
 			wp_die( esc_html__( 'Insufficient permissions.', 'pcio-vis-with-unitii' ) );
 		}
 
@@ -249,7 +249,17 @@ class PCIO_VIS_With_Unitii_Admin {
 				<tr>
 					<th scope="row"><label for="unitii_event_type_id"><?php esc_html_e( 'Vis event type', 'pcio-vis-with-unitii' ); ?></label></th>
 					<td>
-						<?php self::render_select( 'unitii_event_type_id', PCIO_VIS_Event_Types_DB::get_all(), PCIO_VIS_With_Unitii_Settings::event_type_id() ); ?>
+						<?php
+						$unitii_types = PCIO_VIS_Event_Types_DB::get_enabled();
+						$unitii_type_id = PCIO_VIS_With_Unitii_Settings::event_type_id();
+						if ( $unitii_type_id && ! array_filter( $unitii_types, static fn( $type ) => (int) $type['id'] === $unitii_type_id ) ) {
+							$unitii_type = PCIO_VIS_Event_Types_DB::get( $unitii_type_id );
+							if ( $unitii_type ) {
+								array_unshift( $unitii_types, $unitii_type );
+							}
+						}
+						self::render_select( 'unitii_event_type_id', $unitii_types, $unitii_type_id );
+						?>
 						<p class="description"><?php esc_html_e( 'Unitii shifts are added to the Vis event of this type on the same day.', 'pcio-vis-with-unitii' ); ?></p>
 					</td>
 				</tr>

@@ -8,7 +8,7 @@ Requires at least: 6.2
 Tested up to:      7.1
 Requires PHP:      8.1
 Requires Plugins:  pcio-vis-member-event
-Stable tag:        1.0.0
+Stable tag:        1.1.0
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,9 @@ Title, description, resume, the "publish on homepage" flag and the event type. T
 2. The Vis cron sync jobs has gotten a new Unitii importer job
 
 == Changelog ==
+
+= 1.1.0 =
+* The Vis event-type mapping uses only enabled system types and custom types while retaining its current disabled selection until changed.
 
 = 1.0.0 =
 * Initial release.
